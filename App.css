@@ -1,0 +1,116 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: salmon;
+}
+.container{
+  padding: 10px;
+ /* background-color: purple;*/
+  max-width: fit-content;
+  margin:70px auto;
+  
+}
+.btn{
+  border:none;
+  padding: 7px 15px;
+  font-size: 15px;
+  font-style: italic;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-add{
+  background-color: #194064;
+  color:white;
+}
+.addContainer{
+  position: absolute;
+  background-color: rgba(0,0,0,0.2);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addContainer form{
+  width: 450px;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 30px;
+  box-shadow:5px 5px 10px rgba(0,0,0,0.2);
+  border-radius: 5px;
+
+}
+.addContainer from label{
+  font-size: 18px;
+}
+.addContainer form input {
+  font-size: 18px;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+
+}
+.addContainer from button{
+  background-color: blue;
+  color: white;
+  font-weight: 500;
+  margin-top: 20px;
+  cursor: pointer;
+
+}
+.addContainer form .close-btn{
+  margin-left: auto;
+  font-size: 18px;
+  width: 20px;
+  height: 20PX;
+  background-color: rgb(194, 194, 236);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border:1px solid black;
+  cursor: pointer;
+}
+.tableContainer{
+  margin-top: 50px;
+  box-shadow: 5px 5px 10px #c9c9c9;
+  border-radius: 10px;
+}
+.addcontainer table{
+  
+  
+}
+.tableContainer table thead tr{
+  background-color: antiquewhite;
+}
+.tableContainer table thead tr th,
+.tableContainer table tbody tr th{
+  min-width: 200px;
+  padding: 5px;
+  text-align: center;
+}
+.tableContainer table thead tr{
+}
+.tableContainer table thead tr td{
+  border-bottom: 1px solid rgb(201, 170, 170);
+}
+.btn-edit,
+.dtn-delete{
+  font-size: 16px;
+  padding: 5px 10px;
+  margin:0pc 5px;
+}
+.btn-edit{
+  background-color: aqua;
+}
+.btn-delete{
+  background-color: orange;
+  color:black;
+
+}
+
+
